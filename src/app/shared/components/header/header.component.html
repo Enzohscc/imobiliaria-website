@@ -1,0 +1,22 @@
+<header>
+  <span class="menu-btn" (click)="toggleMenu()">
+    <button mat-mini-fab color="warn" >
+      <mat-icon>menu</mat-icon>
+    </button>
+  </span>
+  <nav [class.active]="isMenuActive">
+    <div class="logo-img">
+      <img src="/assets/mini-logo.png" width="55px">
+    </div>
+    <div class="links">
+      <a>Início</a>
+      <a>Imóveis</a>
+      <a>Sobre Nós</a>
+      <a>Contato</a>
+    </div>
+    <div class="btns-log">
+       <button mat-flat-button color="warn">Login</button>
+       <button mat-flat-button color="warn">Cadastro</button>
+    </div>
+  </nav>
+</header>
