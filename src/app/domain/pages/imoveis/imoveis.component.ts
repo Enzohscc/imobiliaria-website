@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
-
+import { MatButtonModule } from '@angular/material/button';
 @Component({
   selector: 'app-imoveis',
   standalone: true,
-  imports: [],
+  imports: [MatButtonModule],
   templateUrl: './imoveis.component.html',
   styleUrl: './imoveis.component.scss'
 })
