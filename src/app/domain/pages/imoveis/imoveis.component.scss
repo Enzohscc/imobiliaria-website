@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section-image-container {
+    background-image: url("https://emcimoveisjacutinga.com.br/Anexos/2ce4012a-3cdc-49f8-a37d-07ddd7dfbd4a/pages.core.imagem/3ceb6fe7-7702-46fe-82b2-c39ba8cf26ce/NmImagem/s-hero-home.jpg");
+    height: 580px;
+    background-size: cover;
+    background-position: top center;
+}
+
+.text-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-width: 100%;
+    color: #ffa500;
+}
+
+.btn-verMais {
+    width: 10%;
+}
