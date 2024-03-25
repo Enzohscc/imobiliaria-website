@@ -1,9 +1,3 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 /*Seção de container para apresentação*/
 .container {
     display: flex;
@@ -18,8 +12,6 @@
     flex: 1;
     width: 30%;
     gap: 20px;
-    min-width: 20rem;
-    max-width: 60rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -27,8 +19,8 @@
 
 .ver-mais-button {
     padding: 10px 20px;
-    background-color: #ff8e3c;
-    color: #fff;
+    background-color: var(--laranja);
+    color: var(--branco);
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -69,7 +61,7 @@
     width: 30%;
     border: none;
     height: 1px;
-    background-color: #0d0d0d;
+    background-color: var(--preto);
 }
 
 /*Cards de qualidade*/
@@ -84,7 +76,7 @@
     max-width: 300px;
     width: 100%;
     padding: 25px;
-    border: 1px solid #ccc;
+    border: 1px solid var(--cinza);
     border-radius: 8px;
     text-align: center;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -98,7 +90,7 @@
 }
 
 .card-csspuro h2 {
-    color: #ff8e3c;
+    color: var(--laranja);
 }
 
 .card-csspuro p {
@@ -119,7 +111,7 @@
     flex-direction: column;
     min-width: 10rem;
     max-width: 70rem;
-    background-color: #ff8e3c; /* Apenas para visualização */
+    background-color: var(--laranja);
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -141,7 +133,7 @@
 .property-card {
     width: calc(33.33% - 20px);
     margin: 10px;
-    border: 1px solid #ddd;
+    border: 1px solid var(--cinza);
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
