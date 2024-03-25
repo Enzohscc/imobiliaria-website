@@ -1,5 +1,5 @@
 /*Seção de container para apresentação*/
-.container {
+.container-about {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -97,10 +97,12 @@
     color: #666;
 }
 
-.container {
+.container-values {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 5rem;
+    padding: 30px;
 }
 
 /*Seção de valores*/
