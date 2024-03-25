@@ -1,27 +1,88 @@
 <section>
-    
-    <div class="container-form">
-        <div class="container-buttons-form">
-            <button>    
-                Buy
-            </button>
-            <button>
-                Hire
-            </button>
-        </div>
-        <div class="imoveis-form">
-            <div class="form-row">
-                <label for="tipoImovel">Tipo de imóvel:</label>
-                <select id="tipoImovel"></select>
-            </div>
-            <div class="form-row">
-                <label for="cidade">Cidade:</label>
-                <input type="text" id="cidade" />
-            </div>
-            <div class="form-row">
-                <label for="bairro">Bairro:</label>
-                <input type="text" id="bairro" />
-            </div>
-        </div>
+  <div class="container-form">
+    <div class="container-buttons-form">
+        <label for="" class="lbl-compra">
+          Comprar
+        </label>
+        <label for="">
+          Alugar
+        </label>
     </div>
+    <div class="imoveis-form">
+        <div class="form-row">
+            <label for="tipoImovel">Tipo de imóvel:</label>
+            <select id="tipoImovel">
+              <option value="">Tipo de imóvel</option>
+              <option value="">Apartamento</option>
+              <option value="">Barracão</option>
+              <option value="">Cjto</option>
+              <option value="">Loja</option>
+              <option value="">Prédio</option>
+              <option value="">Residência</option>
+              <option value="">Sobrado</option>
+              <option value="">Terreno</option>
+            </select>
+        </div>
+        <div class="form-row">
+            <label for="cidade">Cídade:</label>
+            <input type="text" id="cidade" placeholder="Cídade" />
+        </div>
+        <div class="form-row">
+            <label for="bairro">Bairro:</label>
+            <input type="text" id="bairro" placeholder="Bairro"/>
+        </div>
+        <div class="form-row">
+          <label for="quartos">Quartos:</label>
+          <ul>
+            <li>0+</li>
+            <li>1+</li>
+            <li>2+</li>
+            <li>3+</li>
+            <li>4+</li>
+          </ul>
+        </div>
+        <div class="form-row">
+          <label for="vagas">Vagas:</label>
+          <ul>
+            <li>0+</li>
+            <li>1+</li>
+            <li>2+</li>
+            <li>3+</li>
+            <li>4+</li>
+          </ul>
+        </div>
+        <div class="form-row">
+          <label for="suítes">Suítes:</label>
+          <ul>
+            <li>0+</li>
+            <li>1+</li>
+            <li>2+</li>
+            <li>3+</li>
+            <li>4+</li>
+          </ul>
+        </div>
+
+        <hr>
+
+        <div class="form-row">
+          <label for="vlrMinimo">Valor mínimo:</label>
+          <input type="number" id="vlrMinimo" placeholder="R$ 100.000.000,00" />
+        </div>
+        <div class="form-row">
+          <label for="vlrMaximo">Valor máximo:</label>
+          <input type="number" id="vlrMaximo" placeholder="R$ 500.000.000,00" />
+        </div>
+
+        <button>Aplicar</button>
+
+        <hr>
+
+        <label for="area">Área:</label>
+        <div class="form-row" id="teste">
+          <input type="checkbox"/><span>Útil</span>
+          <input type="checkbox"/><span>Total</span>
+        </div>
+
+    </div>
+  </div>
 </section>
