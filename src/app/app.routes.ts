@@ -10,6 +10,10 @@ export const routes: Routes = [
         loadComponent: async () => (await (import('./domain/pages/imoveis/imoveis.component'))).ImoveisComponent
     },
     {
+        path: 'sobre',
+        loadComponent: async () => (await (import('./domain/pages/sobre/sobre.component'))).SobreComponent
+    },
+    {
         path: '**',
         redirectTo: ''
     }
