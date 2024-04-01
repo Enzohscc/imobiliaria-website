@@ -1,8 +1,6 @@
-
 .container-section {
   max-width: 1560px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
   display: flex;
   gap: 15rem;
 }
@@ -32,11 +30,11 @@
     width: 1005;
     height: 30px;
     border-radius: 5px;
-    border: 2px solid #002367;
+    border: 2px solid var(--azul-escuro);
     background-color: var(--branco);
     font-weight: bolder;
     cursor: pointer;
-    color: #002367;
+    color: var(--azul-escuro);
     transition: border-color 0.3s, color 0.3s;
   }
 
@@ -53,7 +51,7 @@
 
   label {
     font-weight: bold;
-    color: #002367;
+    color: var(--azul-escuro);
   }
 
   input, select{
@@ -68,12 +66,12 @@
     ul {
       display: flex;
       gap: 10px;
-      background-color: #fff;
+      background-color: var(--branco);
       list-style: none;
     }
 
   li {
-      background-color: #fff;
+      background-color: var(--branco);
       border: 1px solid #ccc;
       border-radius: 30px; 
       padding: 10px;
@@ -94,11 +92,11 @@
     justify-content: center;
     align-items: center;
     border-radius: 5px;
-    border: 2px solid #002367;
+    border: 2px solid var(--azul-escuro);
     background-color: var(--branco);
     font-weight: bolder;
     cursor: pointer;
-    color: #002367;
+    color: var(--azul-escuro);
     transition: border-color 0.3s, color 0.3s;
   }
 
@@ -133,7 +131,7 @@
 }
 
 .property-card {
-  background-color: #f2f2f2;
+  background-color: var(--cinza);
   padding: 20px;
   border-radius: 5px;
 }
